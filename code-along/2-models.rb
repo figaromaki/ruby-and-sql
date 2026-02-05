@@ -66,7 +66,7 @@ p apple
 #p apple
 
 # 7. delete a row
-apple.destroy
+#apple.destroy
 
 puts "Companies: #{Company.all.count}"
 
