@@ -22,8 +22,6 @@ Rails.logger.info "------------------------"
 puts "companies: #{Company.all.count}" # companies: 0
 
 # 2. insert new rows in companies table
-new_company = Company.new
-p new_company
 
 # Insert a row
 new_company = Company.new
